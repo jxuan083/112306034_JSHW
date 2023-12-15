@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>112306034_JSHW</title>
+</head>
+<body>
+    <script>
+        var rand = Math.floor((Math.random() * 10) + 1);
+    var ans = parseInt(window.prompt('Guess a number between 1 and 10'));
+
+    while (rand !== ans) {
+        ans = parseInt(window.prompt('Incorrect! Guess again'));
+    }
+
+    document.writeln('Correct! The number was ' + rand);
+
+    </script>
+</body>
+</html>
